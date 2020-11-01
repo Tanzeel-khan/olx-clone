@@ -1,0 +1,231 @@
+.header{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  z-index: 9;
+  background: #f7f9f9;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+  padding: 0px 5%;
+}
+.header .logo{
+  width: 50px;
+  margin-right: 20px;
+}
+.header .logo img{
+  width: 50px;
+}
+.header .location{
+background:  white;
+border:  2px solid #002f34;
+border-radius: 5px;
+height: 48px;
+    width: 290px;
+    max-height: 320px;
+    overflow: unset;
+    z-index: 6;
+    margin-top: 12px;
+}
+.header .location .ico{
+padding: 10px;
+}
+.header .location .label{
+flex: 1;
+padding: 10px;
+border: 0px;
+}
+.header .location .arrow{
+flex: 1;
+padding: 3px;
+border: 0px;
+background: #fff;
+outline: none;
+}
+.header .search{
+  background:  white;
+  border:  2px solid #002f34;
+  border-radius: 5px;
+  flex: 1;
+  height: 48px;
+  overflow: unset;
+  z-index: 6;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.header .search .query{
+flex: 1;
+border: 0px;
+padding: 10px;
+}
+.header .search .go{
+  flex: 1;
+  padding: 10px;
+  border: 0px;
+  background: #002f34;
+  color: white;
+  outline: none;
+  max-width: 50px;
+}
+.header.search.goHover{
+
+}
+.header .actions{
+flex: 1;
+max-width: 200px;
+align-items: flex-end;
+justify-content: flex-end;
+}
+.header .actions a{
+margin: 0px 25px 0px 0px;
+color: #002f34;
+text-decoration: underline;
+}
+.header .actions .sell{
+padding: 8px 20px;
+border: 3px #ffa500 solid;
+color: #002f34;
+text-align: center;
+border-radius: 30px;
+box-shadow: 0px 3px 5px #a9a9a9;
+width: 100px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+outline: none;
+}
+.sl{
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.header.actions.sell:hover{
+
+}
+.hnav{
+  margin-top: 55px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  z-index: 8;
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+  padding: 0px 5%;
+}
+.hnav .viewcat{
+ background-color: white !important;
+ outline: none !important;
+}
+.hnav .viewcat .gw{
+  background-color: white !important;
+ border-color: white !important;
+  color: #002f34;
+  outline: none !important;
+}
+.btn-success{
+border-color: white !important;
+outline: none !important;
+}
+.btn-success.focus, .btn-success:focus {
+outline: none !important;
+border-color: white !important;
+}
+.btn-success.dropdown-toggle {
+color:  #002f34 !important;
+border-color: white !important;
+}
+.hnav a{
+  padding: 15px;
+  margin-right: 2px;
+  color: #002f34;
+  text-decoration: none;
+}
+.fresh{
+ 
+}
+._2fcb{
+  height: 252px;
+  margin: 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+.ban{
+  height: 252px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 112px;
+    left: -530px;
+    right: 0;
+    z-index: 1;
+    background-image: url(../assets/hero_bg_pk.jpg);
+}
+.load{
+  text-align: center;
+}
+.El-uo{
+  margin-left: 45px;
+}
+.try{
+  margin: 28px 16px 16px;
+}
+.ljs{
+  width: 2px;
+    background-color: rgba(0,47,52,.2);
+    border: 0 solid rgba(0,47,52,.2);
+    height: 160px;
+}
+.txc{
+  text-align: center;
+  margin-top: -130px;
+}
+._10wyb{
+  width: 128px;
+    height: 40px;
+    margin-right: 8px;
+}
+.follow{
+  text-align: center;
+  margin-top: -83px;
+}
+.foot{
+  display: flex;
+    background: #ebeeef;
+    padding: 16px 0 32px;
+    border-top: 1px solid rgba(0,47,52,.2);
+    font-size: 14px;
+    line-height: 20px;
+}
+.foot a{
+  color: grey;
+  padding-top: 2px;
+  font-size: 12px;
+}
+.foot a:hover{
+  color: #002f34;
+}
+.cp{
+  color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    background: #002f34;
+    padding: 16px 0;
+}
+.country a{
+  color: #fff;
+}
+.classy{
+  margin-left: 790px;
+  margin-top: -20px;
+}.sq{
+  height: 160px;
+  padding: 8px;
+}
+.card-img-top{
+  height: inherit !important;
+}
+.card{
+  height: 266px;
+}
+.navbar-nav{
+  padding-left: 75px !important;
+}
